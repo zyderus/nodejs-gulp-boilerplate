@@ -5,7 +5,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const concat = require('gulp-concat');
 const sass = require('gulp-sass');
 const postcss = require('gulp-postcss');
-// Autoprefixer 10.0.1 is incompatible with postcss 9.0.0. downgrade to postcss@9.8.6
+// Autoprefixer 10.0.1 is incompatible with postcss 9.0.0. downgrade to autoprefixer@9.8.6
 const autoprefixer = require('autoprefixer');
 const terser = require('gulp-terser');
 const imagemin = require('gulp-imagemin');
